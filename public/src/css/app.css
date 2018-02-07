@@ -1,0 +1,120 @@
+body, html {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  height: 100%;
+}
+
+.main-header {
+  width: 100%;
+  position: fixed;
+  padding: 20px 10px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 10;
+  color: white;
+}
+.main-header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.main-header h3 {
+  font-size: 1.25em;
+  margin: 0;
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 22px;
+  width: 60px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+
+/*** Section Header BG ***/
+[class*='col-'] {
+  float: left;
+  box-sizing: border-box;
+}
+
+.mainSection {
+  padding-top: 100px;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: linear-gradient(to top, #7DE2FC 0%, #B9B6E5 100%);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 15px;
+  box-sizing: border-box;
+}
+.row {
+  margin-left: -15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.col-1 {
+  float: none;
+  width: 50%;
+  margin: 0 auto;
+}
+.col-2 {
+  width: 48%;
+}
+.col-3 {
+  width: 32%;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.border-light-grey {
+  border: 1px solid #eee;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.imgWrapper a {
+  width: 100%;
+  display: block;
+  min-height: 200px;
+}
+.imgWrapper a img {
+  width: 100%;
+}
+.featureMainWrap {
+  min-height: 150px;
+}
+.PWAFeatureWrap {
+  display: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#js-0 {
+  display: block;
+}
+/**** Box Shadow Effect ****/
+.box-shadow-effect {
+  box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.1);
+}
