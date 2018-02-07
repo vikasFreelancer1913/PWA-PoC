@@ -36,3 +36,11 @@ pwaCard.addEventListener('click', function (event) {
     }, 300);
   }
 });
+
+window.addEventListener('scroll', function() {
+  if(window.scrollY > 10) {
+    document.querySelector('.main-header').classList.add('showBg');
+  }else {
+    document.querySelector('.main-header').classList.remove('showBg');
+  }
+});
