@@ -3,6 +3,8 @@ body, html {
   font-family: "Raleway", sans-serif;
   position: relative;
   display: flex;
+  flex-grow: 1;
+  flex-flow: column;
 }
 
 .main-header {
